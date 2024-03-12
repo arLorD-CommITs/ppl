@@ -6,6 +6,7 @@
 
 html {
     font-family: sans-serif;
+    scroll-padding-top: var(--scroll-padding, 50px);
 }
  
 .navigation-container {
@@ -20,8 +21,12 @@ html {
     display: flex;
 }
 
+section {
+  max-width: 450px;
+}
+
 h1, h2, h3 {
-    margin:  20px 0;
+    margin:  3rem 0 0.75rem 0;
 }
 
 .routine-section > h2 {
@@ -58,6 +63,7 @@ ul {
 li {
   margin-left: 1.2rem;
   list-style-position: inside;
+  
 }
 
 .note {
@@ -68,9 +74,8 @@ li {
   border-radius: 0.5rem;
 }
 
-section {
-  min-width: 400px;
-  max-width: 600px;
+section p {
+  margin: 0 0 20px 0;
 }
 
 
