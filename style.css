@@ -1,13 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
     font-family: sans-serif;
-  }
-  
+}
+ 
+.navigation-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0;
+  padding: 2rem;
+}
+
+.main-container {
+    display: flex;
+}
+
+h1, h2, h3 {
+    margin:  20px 0;
+}
+
+.routine-section > h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header > .container, .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(189, 189, 249);
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 0.8rem;
+}
+
+li {
+  margin-left: 1.2rem;
+  list-style-position: inside;
+}
+
+.note {
+  max-width: 90%;
+  margin: 0.5rem auto;
+  background-color: rgb(203, 203, 203, 0.8);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+section {
+  min-width: 400px;
+  max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Table styles*/
+
   table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
