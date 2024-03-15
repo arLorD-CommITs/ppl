@@ -159,7 +159,13 @@ li {
 }
 
 section p {
-  margin: 0 0 20px 0;
+  margin: 1rem 0 20px 0;
+  line-height: 1.65rem;
+}
+
+section > ol {
+  margin: 1rem 0 20px 0;
+  line-height: 1.65rem;
 }
 
 
