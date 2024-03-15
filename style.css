@@ -158,13 +158,15 @@ li {
   border-radius: 0.5rem;
 }
 
-section p {
+section > p {
   margin: 1rem 0 20px 0;
-  line-height: 1.65rem;
 }
 
 section > ol {
   margin: 1rem 0 20px 0;
+}
+
+section li, section > ol, section p {
   line-height: 1.65rem;
 }
 
