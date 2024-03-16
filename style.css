@@ -28,7 +28,7 @@ html {
   margin-top: 1rem;
 
   position: fixed;
-  left: 1%;
+  left: 1rem;
   min-width: 220px;
   float: left;
   
@@ -207,4 +207,15 @@ section li, section > ol, section p {
   
   caption {
     padding: 10px;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .navigation-container ul, .navigation-container, .navigation-space {
+      display: none;
+    }
+
+    .content-container {
+      margin: 0 auto;
+    }
   }
