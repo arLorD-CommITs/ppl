@@ -6,7 +6,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    scroll-padding-top: var(--scroll-padding, 50px);
+    scroll-padding-top: var(--scroll-padding, 100px);
 }
  
 .navigation-container {
