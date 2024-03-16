@@ -19,6 +19,7 @@ html {
   font-weight: 900;
   border-radius: 1rem;
   margin-top: 1rem;
+  box-shadow: 10px 5px 5px rgb(198, 189, 189);
 
   position: fixed;
   left: 1rem;
@@ -34,8 +35,8 @@ html {
 }
 
 .navigation-space {
-  min-width: 250px;
-  background-color: #cdcbcb;
+  min-width: 265px;
+  background-color: #ece5e5;
 }
 
 .main-container {
@@ -58,6 +59,7 @@ section {
   background-color: rgb(228, 234, 234);
   border-radius: 1rem;
   padding: 1rem;
+  box-shadow: 10px 5px 5px rgb(175, 193, 203);
 }
 
 h1, h2, h3 {
@@ -230,6 +232,7 @@ section li, section > ol, section p {
       min-width: 50%;
       float: none;
       align-self: center;
+      margin-bottom: 2rem;
 
     }
 
