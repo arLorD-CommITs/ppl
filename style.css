@@ -14,7 +14,7 @@ html {
   flex-direction: column;
   gap: 12px 0;
   padding: 1rem 2rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
   background-color: rgb(232, 232, 226);
   font-weight: 900;
   border-radius: 1rem;
@@ -220,8 +220,22 @@ section li, section > ol, section p {
 
 
   @media only screen and (max-width: 700px) {
-    .navigation-container ul, .navigation-container, .navigation-space {
+    .navigation-space {
       display: none;
+    }
+
+    .navigation-container{
+      position: static;
+      left: auto;
+      min-width: 50%;
+      float: none;
+      align-self: center;
+
+    }
+
+    .main-container {
+      flex-flow: column;
+      padding: 0 1rem;
     }
 
     .content-container {
