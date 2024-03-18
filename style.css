@@ -170,8 +170,8 @@ li {
 
 .important {
   max-width: 90%;
-  margin: 0.5rem auto;
-  background-color: rgba(227, 239, 116, 0.8);
+  margin: 1rem auto;
+  background-color: rgba(237, 221, 143, 0.8);
   padding: 0.75rem;
   border-radius: 0.5rem;
 }
@@ -188,7 +188,9 @@ section li, section > ol, section p {
   line-height: 1.65rem;
 }
 
-
+.progression-table {
+  width: 75%;
+}
 
 
 /*Table styles*/
