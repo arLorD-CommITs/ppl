@@ -198,11 +198,12 @@ section li, section > ol, section p {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.7rem;
+    margin: 0 auto;
   }
   
   td, th {
     border: 1px solid rgb(190,190,190);
-    padding: 10px 20px;
+    padding: 7.5px 12.5px;
   }
   
   th {
@@ -224,7 +225,8 @@ section li, section > ol, section p {
   caption {
     padding: 10px;
   }
-
+  
+/*Table styles*/
 
   @media only screen and (max-width: 700px) {
     .navigation-space {
