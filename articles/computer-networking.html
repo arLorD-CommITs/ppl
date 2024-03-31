@@ -4,23 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover computer networking</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styleTwo.css">
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <ul>
+            <li>Expand your network</li>
+            <li>Meaningful connections</li>
+        </ul>
+    </header>
     <div class="main-container">
-        <aside class="aside"></aside>
+        <aside class="aside">
+            <p>Navigation</p>
+            <ul>
+               <li><a href="#definition">Definition</a></li>
+               <li><a href="#key">Key Components</a>
+                    <li class="nested-bullets"><a href="#nodes">Nodes</a></li>
+                    <li class="nested-bullets"><a href="#links">Links</a></li>
+                    <li class="nested-bullets"><a href="#protocols">Protocols</a></li>
+                    <li class="nested-bullets"><a href="#routers">Routers and switches</a></li>
+                    <li class="nested-bullets"><a href="#topology">Network topology</a></li>
+                </li>
+               <li><a href="#importance">Importance</a></li>
+               <li><a href="#conclusion">Conclusion</a></li>
+               
+            </ul>
+        </aside>
         <main class="main">
             <section>
-                <h1>Discover computer networking</h1>
+                <h1 id="definition">Discover computer networking</h1>
                 <p>Computer networking refers to the connection of multiple devices to share data, resources, and services. It involves the establishment of communication channels and protocols that enable devices to exchange information efficiently. Networking allows computers, smartphones, tablets, servers, and other devices to communicate with each other, forming complex networks that span vast distances.</p>
             </section>
             <section>
-                <h2>Key components</h2>
+                <h2 id="key">Key components</h2>
                 <p>Computer networks are composed of the following:</p>
                 <ul>
-                    <li><strong>Nodes</strong>: Individual devices connected to a network, such as computers, servers, routers, switches, and printers. Each node has a unique identifier, known as an Internet Protocol (IP) address, which facilitates communication within the network.</li>
-                    <li><strong>Links</strong>: Physical or logical connections between nodes, enabling data transmission. These links can be wired (e.g. Ethernet cables) or wireless (e.g, Wi-Fi), depending on the network architecture.</li>
-                    <li><strong>Protocols</strong>: Rules and conventions that govern communication between devices in a network. Common networking protocols include:
+                    <li id="nodes"><strong>Nodes</strong>: Individual devices connected to a network, such as computers, servers, routers, switches, and printers. Each node has a unique identifier, known as an Internet Protocol (IP) address, which facilitates communication within the network.</li>
+                    <li id="links"><strong>Links</strong>: Physical or logical connections between nodes, enabling data transmission. These links can be wired (e.g. Ethernet cables) or wireless (e.g, Wi-Fi), depending on the network architecture.</li>
+                    <li id="protocols"><strong>Protocols</strong>: Rules and conventions that govern communication between devices in a network. Common networking protocols include:
                         <ul>
                             <li>Transmission Control Protocol/Internet Protocol (TCP/IP)</li>
                             <li>Hypertext Transfer Protocol (HTTP)</li>
@@ -28,8 +50,8 @@
                             <li>Simple Mail Transfer Protocol (SMTP)</li>
                         </ul>
                     </li>
-                    <li><strong>Routers and switches</strong>: Network devices that facilitate data routing and forwarding within a network. Routers direct data packets between different networks, while switches manage data traffic within a Local Area Network (LAN).</li>
-                    <li><strong>Network topology</strong>: Physical or logical layout of a network, which includes how nodes and links are interconnected. Common network topologies include: 
+                    <li id="routers"><strong>Routers and switches</strong>: Network devices that facilitate data routing and forwarding within a network. Routers direct data packets between different networks, while switches manage data traffic within a Local Area Network (LAN).</li>
+                    <li id="topology"><strong>Network topology</strong>: Physical or logical layout of a network, which includes how nodes and links are interconnected. Common network topologies include: 
                         <ul>
                             <li><strong>Star</strong>: A central server node is linked to multiple client network devices. This topology performs better as data doesn’t have to go through each node. It is also more reliable.</li>
                             <li><strong>Bus</strong>: Each node is linked to one other node only. Data transmission over the network connections occurs in one direction.</li>
@@ -41,8 +63,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Network types</h2>
-                <p>Here’s a list of computer network types:</p>
+                <h2 id="network-types">Network types</h2>
                 <ul>
                     <li><strong>Local Area Network (LAN)</strong>: Covers a small geographical area, such as a home, office, or campus. It allows devices within the same location to share resources and access the internet.</li>
                     <li><strong>Wide Area Network (WAN)</strong>: Spans large geographical areas and connects multiple LANs or other networks. It utilizes long-distance communication technologies, such as leased lines, fiber-optic cables, and satellite links, to facilitate data transmission over extended distances.</li>
@@ -51,8 +72,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Network architectures</h2>
-                <p>These are the 2 network architectures:</p>
+                <h2 id="network-architectures">Network architectures</h2>
                 <h3>Client-server architecture</h3>
                 <ul>
                     <li>Nodes can be servers or clients. </li>
@@ -77,7 +97,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Importance of computer networking</h2>
+                <h2 id="importance">Importance of computer networking</h2>
                 <ul>
                     <li>Enhanced communication: Enables seamless communication and collaboration between individuals, organizations, and devices, which fosters innovation, productivity, and information sharing.</li>
                     <li>Resource sharing: Efficient sharing of resources, such as files, printers, storage devices, and software applications, which optimizes resource utilization and cost reduction.</li>
@@ -87,11 +107,18 @@
                 </ul>
             </section>
             <section>
-                <h2>Conclusion</h2>
+                <h2 id="conclusion">Conclusion</h2>
                 <p>Computer networks are a cornerstone of modern civilization, connecting individuals, businesses, and societies in an ever-expanding digital landscape. If you understand the fundamentals, you gain insights into the mechanisms that underpin our interconnected world and the transformative power of technology to shape our future.
                 </p>
             </section>
         </main>
+        <aside class="aside right">
+            <p>Other articles</p>
+            <ul>
+               <li><a href="/index.html">Workout program for beginners</a></li>
+               <li><a href="sdlc.html">Software Development Life Cycle (SDLC)</a></li>
+               <li><a href="api.html">Application Programming Interface (API)</a></li>
+        </aside>
     </div>
     <footer class="footer"></footer>
 </body>
