@@ -8,13 +8,17 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     scroll-padding-top: var(--scroll-padding, 100px);
 }
+
+p.navigation {
+  font-size: 1.5rem;
+}
  
 .navigation-container {
   display: flex;
   flex-direction: column;
-  gap: 12px 0;
+  gap: 0;
   padding: 1rem 2rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   background-color: rgb(232, 232, 226);
   font-weight: 900;
   border-radius: 1rem;
@@ -25,14 +29,16 @@ html {
   left: 1rem;
   min-width: 220px;
   float: left;
-  
 }
 
 h4 {
   margin-top: 3rem;
 }
 
-.navigation-container li, .navigation-container ol {
+.navigation-container li, 
+.navigation-container ul,
+.right-navigation-container li,
+.right-navigation-container ul {
   list-style-type: none;
   padding: 10px 0; 
   margin: 0;
@@ -42,6 +48,30 @@ h4 {
   min-width: 265px;
   background-color: #ece5e5;
 }
+
+.right-navigation-space {
+  min-width: 300px;
+  background-color: #ece5e5;
+}
+
+.right-navigation-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 2rem;
+  font-size: 0.8rem;
+  background-color: rgb(221, 221, 203);
+  font-weight: 900;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: 10px 5px 5px rgb(198, 189, 189);
+
+  position: fixed;
+  right: 1rem;
+  width: clamp(200px, 23%, 270px);
+  float: right;
+  
+}
+
 
 .main-container {
     display: flex;
@@ -239,19 +269,27 @@ section li, section > ol, section p {
   
 /*Table styles*/
 
-  @media only screen and (max-width: 700px) {
-    .navigation-space {
+  @media only screen and (max-width: 960px) {
+    .navigation-space,
+    .right-navigation-space {
       display: none;
     }
 
     .navigation-container{
       position: static;
       left: auto;
-      min-width: 50%;
+      width: min(300px, 50%);
       float: none;
       align-self: center;
-      margin-bottom: 2rem;
+    }
 
+    .right-navigation-container {
+      position: static;
+      right: auto;
+      width: min(325px, 80%);
+      align-self: center;
+      margin-bottom: 2rem;
+      margin-top: -1.2rem;
     }
 
     .main-container {
